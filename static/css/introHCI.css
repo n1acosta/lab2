@@ -14,11 +14,14 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     font-family: Raleway, Arial, sans-serif;
+     background: #fbf9d0;
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
+     border: 3px dotted #000;
 }
 
 .jumbotron:after {
@@ -32,5 +35,31 @@ body {
      position: absolute;
      z-index: -1;	
 }
+p{
+     text-align: center;
+}
+p a{
+     padding: 5px;
+     color: #468a9f;
+     text-decoration: none;
+}
+a:hover{
+     text-decoration: overline underline;
+}
 
-
+h1{
+     font-family: Raleway, Arial, sans-serif;
+}
+.jumbotron p{
+     font-variant: small-caps;
+}
+h4{
+     text-align: center;
+     background: #d3d3d3;
+     width: 550px;
+     height: auto;
+     padding: 5px 0;
+     border-radius: 10px;
+     margin-right: auto;
+     margin-left: auto;
+}
